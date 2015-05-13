@@ -1,0 +1,24 @@
+<?
+require 'stranica.php';
+$biografijam = new Stranica();
+$biografijam -> SetSadrzaj('
+<div align="right"><a href="biografija.php">HRVATSKI</a> / <a href="biografijam.php">MAKEDONSKI</a></div>			 
+<h3>Biografija</h3><br>
+<p>Makedonskoto kulturno društvo "Braca Miladinovci" Osiek, formirano e vo mesec oktomvri 1994 godina od grupa entuzijasti: Blagoja Jovanovski, prof.-pretsedatel; Jagoda Treneska-Cveticanin,prof.-podpretsedatel; Jagoda Mitanovska-Janic, dipl.iur. –sekretar; primarius dr. Ljubomir Dojcinov ( pokoen); dr. Kiril Šteriev ( pokoen); Lazar  Jordanov, zaben tehnicar i Sladana Popovska-Horvatic,vojnik. Imeto go dobi zaradi blizinata na gradot Ðakovo, vo koj našol utocište i pocva za tvorenje Konstantin Miladinov, vo dalecnata 1861 godina, koga biskupot J.J.Strossmayer kako golem mecena mu pomogna za štampanjeto na Zbornikot.</p>
+<p>Vo izminatite 10 godini, Društvoto, kako segment od Zaednicata na makedoncite vo republika Hrvatska (Zagreb) ostvari plodna aktivnost vo ramkite na programite sledeni i finansirani od Uredot za nacionalni malcinstva na republika Hrvatska, Osiecko-baranjskata županija i Gradskoto poglavarstvo na gradot Osiek.</p>
+<p>Na sekoe godišno Sobranie se sumiraa postignatite aktivnosti i postavuvaa novi celi so pobogati i raznoobrazni sodržini.</p>
+<p>Na manifestaciite: "Denovi na makedonska kultura" ( vo mesec oktomvri- 10. po red) i "Denovi na Bracata Miladinov" vo Ðakovo i Osiek ( vo mesec juni - 7. po red), ovaa sredina imaše prilika da zapoznae makedonski filmovi, likovni izližbi, promocii na knigi, koncerti na seriozna muzika i seto toa, sekogaš protkaeno so ubavata i edinstvena makedonska pesna. Mnogu afirmirani kulturni dejci ostavija trag na umetnicki dostignuvanja, kako n.pr.(muzicari): dr.Toma Prošev, Rahilka Burzevska, Anastazija Dimitrova, Irena Kavkaleska, Slobodan Cveticanin; (glumci): Kostadinka Velkovska; (pisateli): akademikot Gane Todorovski, dr.sc.Boris Pavlovski, prof.dr.Goran Kalodera, m-r Razme Kumbarovski, Rade Siljan, Eftim Kletnikov, Ognen Bojadžiski, Liljana Dimova Peterle, Blagoja Jovanovski; (slikari): Dimitar Cudo, Ane Vasilevski, Aleksandar Jankovic, Slavko Upevce, Nikola Grozdanovski, Biljana Stamenkovska i mladi makedonski graficari. Filmovite: "Pred doždot", "Kruševskata republika", "Skopje 1963", "Prašina" i dr. bea prosledeni so golemo vnimanie, kako i nastapite na peackite grupi: "Ezerki" i "Raspeana Makedonija" od Zagreb, "Lenka" od Pula i  domacinite "Vardarki".</p>
+<p>Društvoto sorabotuva i zaednicki nastapuva so drugite malcinstva: Matica Slovacka-Osiek; Madarsko kulturno društvo; Srbsko kulturno društvo "Prosvjeta" ( pododbori Osiek, Vukovar, Beli Manastir, Darda); so hrvatsko narodno Kazalište; Muzicka škola "Franjo Kuhac"; Filizofski fakultet; Evandeosko teološki fakultet; Osiecko-baranjska županija; Gradsko poglavarstvo na Osiek i Ðakovo; Matica hrvatska Osiek i Ðakovo; Matica na penzioneri; Društvo na dijabeticari……. </p>
+<p>Neodamna zapocna so rabota i  folklornata sekcija "Tanec", koja zaradi nemanje na nosii go odlaga svojot prv nastap do bliska idnina. Detskata folklorna grupa "Mali Tanec" nastapi na "10.denovi makedonska kultura" o.g.</p>
+<p>Muzickata sekcija od samoto osnovanje gi organizira site muzicki nastani, a od pred cetiri godini formira i peacka grupa "Vardarki" ( 15 clena), vo koja makedonskata pesna  ja ucat i interpretiraat i clenovi od nemakedonsko poteklo ( hrvat,evrein, srbin,slovak). Za svojot nastap pred svetiot Otec (juni, 2003), kako i za vkupniot pridones  vo promoviranje na multietnicnost, gradot Osiek dodeli na Društvoto vredno priznanie "Pecat na Gradot". </p>
+<p>Nadaleku poznatite  makedonski kulinarski specijaliteti , podgotveni od vrednite race na clenkite od kulinarskata sekcija, kako i makedonskite vina i rakii (osobeno strumickata mastika), so netrpenie se ocekuvaat na makedonskite tezgi i masi. Ovaa godina.na  Veligdenskata proslava organizirana od Gradskoto poglavarstvo,na prepolniot ploštad vo Osiek,  Društvoto za svojata originalnost osvoi 3.nagrada.</p>
+<p>Za  Društvoto redovno nastapuvaat:  Slobodan Cveticanin-bariton, Jagoda Cveticanin-klavir, Kiril Naumov-violina, Dejan Cincurák –oboa, Milka Madaric-narodna peacka i Ksenija Menkovski-narodna i zabavna peacka, kako i Janko Popovski so klavijaturi.</p>
+<p>Novoto rakovodstvo sostaveno od: Jagoda Treneska-Cveticanin-pretsedatel; Marija Cincurak-potpredsedatel; Vinko Menkovski –sekretar, Jagoda Mitanovska Janic, Marija Grbavica, Andrijana Galovic i Dušica Cvetkovska, so golema odgovornost se obvrzaa za  zadržuvanje na image-ot koj Društvoto go stekna vo ovaa sredina,no i poširoko vo Hrvatska.</p>
+<br>
+<br />
+<br />
+
+						   
+						   ');
+$biografijam -> Prikaz();
+?>
